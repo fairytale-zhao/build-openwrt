@@ -24,8 +24,8 @@ echo "DISTRIB_SOURCECODE='immortalwrt'" >>package/base-files/files/etc/openwrt_r
 #
 # Add luci-app-amlogic
 #svn co https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic package/luci-app-amlogic
-svn co https://github.com/brvphoenix/luci-app-wrtbwmon/tree/master/luci-app-wrtbwmon package/wrtbwmon/luci-app-wrtbwmon
-svn co https://github.com/brvphoenix/wrtbwmon/tree/master/wrtbwmon package/wrtbwmon/wrtbwmon
+svn co https://github.com/tonghuabande/luci-app-wrtbwmon package/wrtbwmon/luci-app-wrtbwmon
+svn co https://github.com/tonghuabande/wrtbwmon package/wrtbwmon/wrtbwmon
 
 # Apply patch
 # git apply ../config/patches/{0001*,0002*}.patch --directory=feeds/luci
